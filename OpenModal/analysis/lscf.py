@@ -18,7 +18,7 @@
 
 import numpy as np
 from OpenModal.analysis.get_simulated_sample import get_simulated_receptance
-from OpenModal.fft_tools import irfft_adjusted_lower_limit
+from fft_tools import irfft_adjusted_lower_limit
 from OpenModal.analysis.utility_functions import toeplitz, prime_factors, complex_freq_to_freq_and_damp
 
 

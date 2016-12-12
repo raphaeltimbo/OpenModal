@@ -41,7 +41,7 @@ import numpy as np
 
 from preferences import DEFAULTS
 
-from frf import _WINDOWS, _EXC_TYPES, _RESP_TYPES, _WGH_TYPES
+from pyFRF import _WINDOWS, _EXC_TYPES, _RESP_TYPES, _WGH_TYPES
 
 from OpenModal.gui.templates import COLOR_PALETTE
 

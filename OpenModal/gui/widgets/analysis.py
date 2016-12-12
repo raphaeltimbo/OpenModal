@@ -28,7 +28,7 @@ from OpenModal.analysis.add_reconstruction_to_mdd import save_stabilisation_spot
 from OpenModal.analysis.utility_functions import complex_freq_to_freq_and_damp
 from OpenModal.analysis.utility_functions import prime_factors
 from OpenModal.analysis.utility_functions import get_analysis_id
-from OpenModal.fft_tools import convert_frf
+from fft_tools import convert_frf
 from OpenModal.utils import get_frf_from_mdd
 from OpenModal.utils import get_frf_type
 

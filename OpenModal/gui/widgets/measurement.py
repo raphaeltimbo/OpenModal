@@ -40,7 +40,7 @@ try:
 except NotImplementedError as nie:
     dp = None
     dq = None
-import OpenModal.frf as frf
+import pyFRF as frf
 import OpenModal.gui.templates as temp
 from OpenModal.meas_check import overload_check, double_hit_check
 

@@ -17,7 +17,7 @@
 
 
 import numpy as np
-from OpenModal.fft_tools import PSD
+from fft_tools import PSD
 
 def overload_check(data, min_overload_samples=3):
     """Check data for overload

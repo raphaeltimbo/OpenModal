@@ -25,10 +25,9 @@
 
 """
 import numpy as np
-import matplotlib.pyplot as plt
 import pyuff
 
-from OpenModal.fft_tools import convert_frf
+from fft_tools import convert_frf
 
 
 def get_measured_accelerance(show=False):
@@ -62,6 +61,8 @@ def get_measured_receptance(show=False):
     return freq, H
 
 if __name__ == '__main__':
+    #testing
+    import matplotlib.pyplot as plt
     get_measured_accelerance(show=True)
     #get_measured_mobility(show=True)
     #get_measured_receptance(show=True)

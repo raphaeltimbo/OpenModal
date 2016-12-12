@@ -42,7 +42,7 @@ History:- april 2014: added convert_frf to ewins, reconstruction,
 import numpy as np
 
 from OpenModal.analysis.get_frf_peaks import get_frf_peaks
-from OpenModal.fft_tools import convert_frf
+from fft_tools import convert_frf
 
 
 def ewins(freq, H, nf='None', residues=False, type='d', o_fr=0):
